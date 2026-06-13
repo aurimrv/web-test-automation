@@ -1,0 +1,115 @@
+{
+  "id": "ab79563d-a079-43c8-9d6e-8c54e8508598",
+  "version": "2.0",
+  "name": "google",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "fc2996f4-0ad8-4322-8f16-705de78b547e",
+    "name": "google-search",
+    "commands": [{
+      "id": "c4dc6d55-91cb-45f6-b201-d00fc61187c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "949d0fd1-3d90-471c-b66b-b003b7e3b9a0",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1363x860",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "127752a3-f181-4d67-b439-ed3860bad188",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dd54a1b-9873-4781-a9c8-0516c9641a51",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6f6404d-601a-4c16-830d-9e4f0513f352",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dda7c37d-9e22-40b9-b753-4ef58752ece4",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Especialização Web UFSCAR"
+    }, {
+      "id": "b810a921-41fc-4c50-adce-adec837127ac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=_ikstav3yPIaN-d8P28XjUA_45",
+      "targets": [
+        ["id=_ikstav3yPIaN-d8P28XjUA_45", "id"],
+        ["css=#\\_ikstav3yPIaN-d8P28XjUA_45", "css:finder"],
+        ["xpath=//h3[@id='_ikstav3yPIaN-d8P28XjUA_45']", "xpath:attributes"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Desenvolvimento de Software para Web')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "031eaf80-8857-409f-b05c-4eaea9aea765",
+      "comment": "",
+      "command": "click",
+      "target": "id=_ikstav3yPIaN-d8P28XjUA_45",
+      "targets": [
+        ["id=_ikstav3yPIaN-d8P28XjUA_45", "id"],
+        ["css=#\\_ikstav3yPIaN-d8P28XjUA_45", "css:finder"],
+        ["xpath=//h3[@id='_ikstav3yPIaN-d8P28XjUA_45']", "xpath:attributes"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/span/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Desenvolvimento de Software para Web')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b772d7b6-af56-4428-9337-6c878239e17e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fc2996f4-0ad8-4322-8f16-705de78b547e"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

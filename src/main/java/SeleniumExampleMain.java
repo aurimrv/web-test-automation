@@ -8,7 +8,7 @@ public class SeleniumExampleMain {
    static int slowMo = 800; // ms between actions
 
    static WebElement find(WebDriver driver, By locator) {
-      try { Thread.sleep(slowMo); } catch (InterruptedException ignored) {}
+     // try { Thread.sleep(slowMo); } catch (InterruptedException ignored) {}
       return driver.findElement(locator);
    }
 
@@ -18,13 +18,14 @@ public class SeleniumExampleMain {
       WebDriver driver = new ChromeDriver();
       driver.get("https://www.saucedemo.com/");
 
-      find(driver, By.id("user-name")).sendKeys("standard_user");
+      //find(driver, By.id("user-name")).sendKeys("standard_user");
+      find(driver, By.xpath("//*[@id=\"user-name\"]")).sendKeys("standard_user");
       find(driver, By.id("password")).sendKeys("secret_sauce");
       find(driver, By.id("login-button")).click();
 
       System.out.println(find(driver, By.className("title")).getText());
 
-      try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
+      //try { Thread.sleep(2000); } catch (InterruptedException ignored) {}
       driver.quit();
    }
 }
